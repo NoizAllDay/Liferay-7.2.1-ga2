@@ -1,0 +1,13 @@
+dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.petra.concurrent", version: "3.0.0"
+	compileOnly group: "com.liferay", name: "com.liferay.petra.io", version: "3.0.0"
+	compileOnly group: "com.liferay", name: "com.liferay.petra.lang", version: "3.0.0"
+	compileOnly group: "com.liferay", name: "com.liferay.petra.reflect", version: "3.0.0"
+	compileOnly group: "com.liferay", name: "com.liferay.petra.string", version: "3.0.0"
+
+	testCompile project(":core:petra:petra-test-util")
+}
+
+liferay {
+	deployDir = appServerLibGlobalDir
+}

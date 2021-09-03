@@ -1,0 +1,3 @@
+dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.digital.signature.api", version: "1.0.0"
+}

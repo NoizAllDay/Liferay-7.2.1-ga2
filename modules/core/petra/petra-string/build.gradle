@@ -1,0 +1,7 @@
+dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.petra.lang", version: "3.0.0"
+}
+
+liferay {
+	deployDir = appServerLibGlobalDir
+}
